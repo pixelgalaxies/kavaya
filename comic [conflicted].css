@@ -106,7 +106,7 @@ h2 {
 	align-items: center;
 }
 
-.col {
+.row div {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
@@ -120,28 +120,17 @@ h2 {
 	width: 20%;
 }
 
-.avatar {
+.author img {
 	width: 100%;
 	border-radius: 50%;
-	border: 1px solid #292929;
-}
-
-.about-icon-container {
-	width: 100%;
-	justify-content: center;
-}
-
-.about-icon {
-	height: 40px;
-	align-self: center;
-	margin: 10px 20px;
+	border: 3px solid #191919;
 }
 
 .pro li {
-	padding: 10px 0;
+	padding: 15px 0;
 	list-style: none;
 	margin: 0;
-	border-bottom: 1px solid black;
+	font-family: 'Amatic SC'
 }
 
 .contact-icons img {
@@ -151,7 +140,8 @@ h2 {
 }
 
 .contact-icons img:hover {
-	background-color: #fafafa;
+	background-color: #2a1a35;
+	fill: #fafafa;
 }
 
 .contact-icons div{
