@@ -10,6 +10,8 @@ body {
 	max-width: 960px;
 	color: #000000;
 	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
 }
 
 /* ------------------------------------------- header & nav */
@@ -58,6 +60,7 @@ h2 {
 .comic-container {
 	width: 100%;
 	padding: 20px;
+	flex: 1 0 auto;
 }
 
 .head {
@@ -157,4 +160,14 @@ h2 {
 
 .contact-icons div{
 	align-items: center;
+}
+
+/* ---------------------------------- footer*/
+.footer {
+	background-color: #2a1a35;
+	padding: 20px 0;
+	text-align: center;
+	color: #fafafa;
+	font-size: 24px;
+	flex-shrink: 0;
 }
