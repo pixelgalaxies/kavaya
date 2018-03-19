@@ -38,7 +38,6 @@ function generateLaw(){
 
 //Functions for the navbar menu display
 function menuOpen() {
-	//checks if the source includes "menu"
 	document.querySelector(".s-nav").style.display="inherit";
 	
 	document.querySelector(".menu-icon").style.display="none";
@@ -47,7 +46,6 @@ function menuOpen() {
 }
 
 function menuClose() {
-	//checks if the source includes "menu"
 	document.querySelector(".s-nav").style.display="none";
 	
 	document.querySelector(".menu-icon").style.display="inherit";
