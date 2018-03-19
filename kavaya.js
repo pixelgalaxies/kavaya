@@ -1,7 +1,7 @@
 function generateLaw(){
 	const law = document.querySelector(".law");
 	const bg = document.querySelector(".container");
-	var random = Math.floor((Math.random() * 6) + 1);
+	var random = Math.floor((Math.random() * 7) + 1);
 	
 	switch(random) {
 		case 1:
@@ -27,6 +27,10 @@ function generateLaw(){
 		case 6:
 			law.innerHTML = '"It\'s time to leave when the silence arrives, if you want to make it out alive."';
 			bg.style.backgroundImage = "url(images/indexSplash/6.jpg)";
+			break;
+		case 7:
+			law.innerHTML = '"Test not the wrath of the headless plague."';
+			bg.style.backgroundImage = "url(images/indexSplash/7.jpg)";
 			break;
 	}
 }
