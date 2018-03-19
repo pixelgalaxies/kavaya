@@ -43,11 +43,13 @@ function menuToggle() {
 	//checks if the source includes "menu"
 	if(imgSource.src.includes("menu.svg")) {
 		document.querySelector(".s-nav").style.display="inherit";
+		imgSource.style.display="inherit";
 		imgSource.src = imgSource.src.replace("menu.svg", "x.svg");
 	}
 	//if it doesn't include menu, it must be set to x
 	else {
 		document.querySelector(".s-nav").style.display="none";
+		imgSource.style.display="inherit";
 		imgSource.src = imgSource.src.replace("x.svg", "menu.svg");
 	}
 	console.log(imgSource.src);
