@@ -18,7 +18,7 @@ body {
 
 .header {
 	background-color: #2a1a35;
-	padding: 10px;
+	padding: 10px 25px;
 }
 
 .s-title {
@@ -129,6 +129,8 @@ h2 {
 	text-align: justify;
 }
 
+/* --------------------------------------------- about */
+
 .avatar {
 	border: 1px solid #292929;
 	height: 350px;
@@ -139,6 +141,7 @@ h2 {
 	height: 40px;
 }
 
+/* ---------------------------------------- player */
 .portrait {
 	border: 3px solid #000000;
 }
@@ -152,6 +155,25 @@ h2 {
 	margin: 5px 0;
 }
 
+
+/* ------------------------------------------- chronicles */
+.slide-out {
+	position: absolute;
+	left: -280px;
+	background-color: rgba(0,0,0,0.9);
+	width: 300px;
+	height: 100%;
+	transition: left 1s;
+}
+
+.arrow {
+	position: absolute;
+	right: 0;
+	top: 48%;
+}
+
+
+/* ----------------------------------------- pronunciation*/
 .pro li {
 	padding: 10px 0;
 	list-style: none;
@@ -159,6 +181,8 @@ h2 {
 	border-bottom: 1px solid black;
 }
 
+
+/* ---------------------------------------------- contact*/
 .contact-icons img {
 	height: 100px;
 	padding: 10px;
@@ -169,6 +193,7 @@ h2 {
 	background-color: #fafafa;
 }
 
+
 /* ------------------------------------------ footer*/
 .footer {
 	background-color: #2a1a35;
@@ -177,6 +202,7 @@ h2 {
 	color: #fafafa;
 	flex-shrink: 0;
 }
+
 
 /* -------------------------------- media queries */
 
