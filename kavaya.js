@@ -1,8 +1,9 @@
+// Function to generate one of seven Emery's Laws for title screen 
 function generateLaw(){
 	const law = document.querySelector(".law");
 	const bg = document.querySelector(".container");
 	var random = Math.floor((Math.random() * 7) + 1);
-	
+	//switch case to determine which law is displayed
 	switch(random) {
 		case 1:
 			law.innerHTML = '"For what is borrowed, must always be repaid."';
@@ -34,3 +35,20 @@ function generateLaw(){
 			break;
 	}
 }
+
+//Function for the navbar menu display
+function menuToggle() {
+	//grabs the information of .nav-icon
+	var imgSource = document.querySelector(".nav-icon"); 
+	//checks if the source includes "menu"
+	if(imgSource.src.includes("menu.svg")) {
+		document.querySelector(".s-nav").style.display="inherit";
+		imgSource.src = imgSource.src.replace("menu", "x");
+	}
+	//if it doesn't include menu, it must be set to x
+	else {
+		document.querySelector(".s-nav").style.display="none";
+		imgSource.src = imgSource.src.replace("x", "menu");
+	}
+}
+

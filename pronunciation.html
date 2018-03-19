@@ -14,18 +14,35 @@
 <body>
 	<div class="container">
 		<div class="header">
-			<h1 class="title">Tales of Kavaya</h1>
-			
-			<div class="nav">
-				<ul>
-					<li><a href="about.html">About</a></li>
-					<li><a href="players.html">Players</a></li>
-					<li><a href="chronicles.html">Chronicles</a></li>
-					<li><a class="underline" href="pronunciation.html">Pronunciation</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
+			<div class="s-header">
+				<div class="title-bar">
+					<h1 class="s-title">Tales of Kavaya</h1>
+					<img onclick='menuToggle()' class="nav-icon" src="images/icons/menu.svg" alt="">
+				</div>
+				<div class="s-nav">
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="players.html">Players</a></li>
+						<li><a href="chronicles.html">Chronicles</a></li>
+						<li><a href="pronunciation.html">Pronunciation</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</div>
 			</div>
-		</div>
+			
+			<div class="m-header">
+				<h1 class="m-title">Tales of Kavaya</h1>
+				<div class="m-nav">
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="players.html">Players</a></li>
+						<li><a href="chronicles.html">Chronicles</a></li>
+						<li><a href="pronunciation.html">Pronunciation</a></li>
+						<li><a class="underline" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!-- /header -->
 		
 		<div class="comic-container">
 			<div class="grid-960">
@@ -190,5 +207,6 @@
 		</div>
 	</div> <!-- /container -->
 	
+	<script src="kavaya.js"></script>
 </body>
 </html>

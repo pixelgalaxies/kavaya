@@ -33,5 +33,14 @@ body {
 
 .law {
 	text-align: center;
-	font-size: 60px;
+	font-size: 40px;
 }
+
+@media (min-width: 768px) {
+	.law {
+		font-size: 60px;
+	}
+}
+}
+
+
