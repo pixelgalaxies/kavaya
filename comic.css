@@ -47,6 +47,10 @@ body {
 	padding: 5px;
 }
 
+.x-icon {
+	display: none;
+}
+
 .m-title {
 	color: #fafafa;
 	font-size: 88px;

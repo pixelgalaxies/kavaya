@@ -36,22 +36,23 @@ function generateLaw(){
 	}
 }
 
-//Function for the navbar menu display
-function menuToggle() {
-	//grabs the information of .nav-icon
-	var imgSource = document.querySelector(".nav-icon"); 
+//Functions for the navbar menu display
+function menuOpen() {
 	//checks if the source includes "menu"
-	if(imgSource.src.includes("menu.svg")) {
-		document.querySelector(".s-nav").style.display="inherit";
-		imgSource.style.display="inherit";
-		imgSource.src = imgSource.src.replace("menu.svg", "x.svg");
-	}
-	//if it doesn't include menu, it must be set to x
-	else {
-		document.querySelector(".s-nav").style.display="none";
-		imgSource.style.display="inherit";
-		imgSource.src = imgSource.src.replace("x.svg", "menu.svg");
-	}
-	console.log(imgSource.src);
+	document.querySelector(".s-nav").style.display="inherit";
+	
+	document.querySelector(".menu-icon").style.display="none";
+	
+	document.querySelector(".x-icon").style.display="inherit";
+}
+
+function menuClose() {
+	//checks if the source includes "menu"
+	document.querySelector(".s-nav").style.display="none";
+	
+	document.querySelector(".menu-icon").style.display="inherit";
+	
+	document.querySelector(".x-icon").style.display="none";
+	
 }
 
