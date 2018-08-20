@@ -31,7 +31,7 @@ function generateLaw(){
 			break;
 		case 7:
 			law.innerHTML = '"Test not the wrath of the headless plague."';
-			bg.style.backgroundImage = "url(.assets/images/indexSplash/7.jpg)";
+			bg.style.backgroundImage = "url(assets/images/indexSplash/7.jpg)";
 			break;
 	}
 }
