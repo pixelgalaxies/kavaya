@@ -4,51 +4,23 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<link type="text/css" rel="stylesheet" href="comic.css">
-	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="assets/css/comic.css">
+	<link rel="stylesheet" href="assets/css/reset.css">
 	<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script src="kavaya.js"></script>
+	<script src="assets/javascript/sidepanel.js"></script>
 	
 	<title>Tales of Kavaya | Chronicles</title>
 </head>
 <body>
 	<div class="container">
 		<div class="header">
-			<div class="s-header">
-				<div class="title-bar">
-					<h1 class="s-title">Tales of Kavaya</h1>
-					<img onclick="menuOpen()" class="menu-icon" src="images/icons/menu.svg" alt="">
-					<img onclick="menuClose()" class="x-icon" src="images/icons/x.svg" alt="">
-				</div>
-				<div class="s-nav">
-					<ul>
-						<li><a href="about.html">About</a></li>
-						<li><a href="characters.html">Characters</a></li>
-						<li><a href="chronicles.html">Chronicles</a></li>
-						<li><a href="pronunciation.html">Pronunciation</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="m-header">
-				<h1 class="m-title">Tales of Kavaya</h1>
-				<div class="m-nav">
-					<ul>
-						<li><a href="about.html">About</a></li>
-						<li><a href="characters.html">Characters</a></li>
-						<li><a class="underline" href="chronicles.html">Chronicles</a></li>
-						<li><a href="pronunciation.html">Pronunciation</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</div>
-			</div>
+			<script src="assets/javascript/nav.js"></script>
 		</div><!-- /header -->
 		
 		<div onclick="slide()" ontouchmove="slide()" class="slide-out">
-			<img class="arrow" src="images/icons/chevron-right.svg" alt="">
+			<img class="arrow" src="assets/images/icons/chevron-right.svg" alt="">
 		</div>
 		
 		<div class="comic-container">
@@ -64,7 +36,7 @@
 		</div>
 	</div> <!-- /container -->
 	
-	<script src="kavaya.js"></script>
+	<script src="assets/javascript/dropdown.js"></script>
 	
 </body>
 </html>
