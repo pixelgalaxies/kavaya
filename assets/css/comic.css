@@ -1,7 +1,7 @@
 body {
 	background-image: url(../images/newBG.jpg);
 	background-attachment: fixed;
-	font-family: 'Amatic SC', serif;
+	font-family: "Amatic SC", serif;
 }
 
 .container {
@@ -60,7 +60,7 @@ body {
 	display: inline;
 }
 
-.m-nav a{
+.m-nav a {
 	color: #fafafa;
 	font-size: 32px;
 	padding: 10px;
@@ -110,11 +110,11 @@ h2 {
 .card li {
 	list-style-type: circle;
 	margin-left: 60px;
-	font-family: 'Barlow Condensed';
+	font-family: "Barlow Condensed";
 }
 
 .card p {
-	font-family: 'Barlow Condensed';
+	font-family: "Barlow Condensed";
 }
 
 /* --------------------------------------------- about */
@@ -129,10 +129,10 @@ h2 {
 	height: 40px;
 }
 
-.about p, .about li {
+.about p,
+.about li {
 	font-size: 24px;
 }
-
 
 /* ---------------------------------------- characters */
 
@@ -148,12 +148,18 @@ h2 {
 	font-size: 22px;
 }
 
+.chooseYourPlayer {
+	width: 100%;
+	border-radius: 50%;
+	border: 2px solid black;
+	background-color: #2a1a35;
+}
 
 /* ------------------------------------------- chronicles */
 .slide-out {
 	position: absolute;
 	left: -280px;
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0, 0, 0, 0.9);
 	width: 300px;
 	height: 100%;
 	transition: left 1s;
@@ -165,7 +171,6 @@ h2 {
 	top: 48%;
 }
 
-
 /* ----------------------------------------- pronunciation*/
 .pro li {
 	padding: 10px 0;
@@ -173,7 +178,6 @@ h2 {
 	margin: 0;
 	border-bottom: 1px solid black;
 }
-
 
 /* ---------------------------------------------- contact*/
 .contact-icons img {
@@ -186,7 +190,6 @@ h2 {
 	background-color: #fafafa;
 }
 
-
 /* ------------------------------------------ footer*/
 .footer {
 	background-color: #2a1a35;
@@ -195,7 +198,6 @@ h2 {
 	color: #fafafa;
 	flex-shrink: 0;
 }
-
 
 /* -------------------------------- media queries */
 
@@ -207,18 +209,18 @@ h2 {
 
 @media (min-width: 768px) {
 	.header {
-	padding: 35px;	
-	text-align: center;
+		padding: 35px;
+		text-align: center;
 	}
-	
+
 	.s-header {
 		display: none;
 	}
-	
+
 	.m-header {
 		display: inherit;
 	}
-	
+
 	.footer {
 		font-size: 20px;
 	}
