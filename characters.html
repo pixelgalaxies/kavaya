@@ -16,7 +16,15 @@
 </head>
 
 <body>
-	<div class="container">
+	<div class="overlay-container">
+		<div class="overlay grid-960 vcenter">
+			<div class="row overlay-content">
+				<!-- Content gets thrown into here -->
+			</div>
+		</div>
+	</div>
+
+	<div class="container character-display">
 		<div class="header">
 			<script src="assets/javascript/nav.js"></script>
 		</div>
@@ -44,29 +52,29 @@
 
 				<div class="row hcenter">
 					<div class="cols-6 colm-e">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/ayariO.PNG" alt="" />
-						</a>
-					</div>
-					<div class="cols-6 colm-e">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/morganO.PNG" alt="" />
-						</a>
-					</div>
-					<div class="cols-6 colm-e">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/rowanO.PNG" alt="" />
-						</a>
-					</div>
-					<div class="cols-6 colm-e">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/greyO.PNG" alt="" />
-						</a>
-					</div>
-					<div class="cols-6 colm-e">
-						<a href="">
+						<span data-char="azreal" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/azrealO.png" alt="" />
-						</a>
+						</span>
+					</div>
+					<div class="cols-6 colm-e">
+						<span data-char="morgan" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/morganO.png" alt="" />
+						</span>
+					</div>
+					<div class="cols-6 colm-e">
+						<span data-char="grey" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/greyO.png" alt="" />
+						</span>
+					</div>
+					<div class="cols-6 colm-e">
+						<span data-char="rowan" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/rowanO.png" alt="" />
+						</span>
+					</div>
+					<div class="cols-6 colm-e">
+						<span data-char="ayari" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/ayariO.png" alt="" />
+						</span>
 					</div>
 				</div>
 
@@ -89,67 +97,67 @@
 
 				<div class="row hcenter">
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/killianO.PNG" alt="" />
-						</a>
-					</div>
-					<div class="cols-6 colm-2">
-						<a href="">
+						<span data-char="josephine" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/josephineO.png" alt="" />
-						</a>
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/jorahO.PNG" alt="" />
-						</a>
+						<span data-char="jorah" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/jorahO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/deronO.png" alt="" />
-						</a>
+						<span data-char="silas" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/silasO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/emilyO.PNG" alt="" />
-						</a>
+						<span data-char="heerium" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/heeriumO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
+						<span data-char="amelia" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/ameliaO.png" alt="" />
-						</a>
+						</span>
+					</div>
+					<div class="cols-6 colm-2">
+						<span data-char="emily" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/emilyO.png" alt="" />
+						</span>
 					</div>
 				</div>
 
 				<div class="row hcenter">
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/dashielO.PNG" alt="" />
-						</a>
+						<span data-char="auredash" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/dashielO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/aureliaO.PNG" alt="" />
-						</a>
+						<span data-char="auredash" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/aureliaO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/silasO.PNG" alt="" />
-						</a>
+						<span data-char="jax" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/jaxO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/wadeO.PNG" alt="" />
-						</a>
+						<span data-char="killian" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/killianO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/wadeO.PNG" alt="" />
-						</a>
+						<span data-char="wayde" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/waydeO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/wadeO.PNG" alt="" />
-						</a>
+						<span data-char="deron" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/deronO.png" alt="" />
+						</span>
 					</div>
 				</div>
 
@@ -171,34 +179,34 @@
 
 				<div class="row hcenter">
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/kimiO.PNG" alt="" />
-						</a>
+						<span data-char="kimi" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/kimiO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/wadeO.PNG" alt="" />
-						</a>
+						<span data-char="leelan" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/leelanO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
+						<span data-char="alexandria" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/alexandriaO.png" alt="" />
-						</a>
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/atlasO.PNG" alt="" />
-						</a>
+						<span data-char="atlas" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/atlasO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/wadeO.PNG" alt="" />
-						</a>
+						<span data-char="irvin" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/irvinO.png" alt="" />
+						</span>
 					</div>
 					<div class="cols-6 colm-2">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/isaiahO.PNG" alt="" />
-						</a>
+						<span data-char="isaiah" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/isaiahO.png" alt="" />
+						</span>
 					</div>
 				</div>
 
@@ -209,68 +217,78 @@
 				</div>
 
 				<div class="row hcenter">
-					<div class="cols-6 colm-3">
-						<a href="">
+					<div class="cols-6 colm-e">
+						<span data-char="mei" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/meiO.png" alt="" />
-						</a>
+						</span>
 					</div>
-					<div class="cols-6 colm-3">
-						<a href="">
+					<div class="cols-6 colm-e">
+						<span data-char="roscoe" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/roscoeO.png" alt="" />
-						</a>
+						</span>
 					</div>
-					<div class="cols-6 colm-3">
-						<a href="">
+					<div class="cols-6 colm-e">
+						<span data-char="taizo" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/taizoO.png" alt="" />
-						</a>
+						</span>
 					</div>
-					<div class="cols-6 colm-3">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/eliasO.PNG" alt="" />
-						</a>
+					<div class="cols-6 colm-e">
+						<span data-char="elias" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/eliasO.png" alt="" />
+						</span>
+					</div>
+					<div class="cols-6 colm-e">
+						<span data-char="ruby" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/ruby.png" alt="" />
+						</span>
 					</div>
 				</div>
 
 				<div class="row hcenter">
-					<div class="cols-6 colm-3">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/alderO.PNG" alt="" />
-						</a>
+					<div class="cols-6 colm-e">
+						<span data-char="alder" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/alderO.png" alt="" />
+						</span>
 					</div>
-					<div class="cols-6 colm-3">
-						<a href="">
+					<div class="cols-6 colm-e">
+						<span data-char="tatula" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/tatulaO.png" alt="" />
-						</a>
+						</span>
 					</div>
-					<div class="cols-6 colm-3">
-						<a href="">
+					<div class="cols-6 colm-e">
+						<span data-char="oliver" onclick="showOverlay(this.dataset.char)">
 							<img class="chooseYourPlayer" src="assets/images/circleCharacters/oliverO.png" alt="" />
-						</a>
+						</span>
 					</div>
-					<div class="cols-6 colm-3">
-						<a href="">
-							<img class="chooseYourPlayer" src="assets/images/circleCharacters/aurieO.PNG" alt="" />
-						</a>
+					<div class="cols-6 colm-e">
+						<span data-char="kalissa" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/kalissaO.png" alt="" />
+						</span>
+					</div>
+					<div class="cols-6 colm-e">
+						<span data-char="aurie" onclick="showOverlay(this.dataset.char)">
+							<img class="chooseYourPlayer" src="assets/images/circleCharacters/aurieO.png" alt="" />
+						</span>
 					</div>
 				</div>
+				<!-- /grid-960 -->
 			</div>
-			<!-- /grid-960 -->
-		</div>
-		<!-- /comic-container -->
+			<!-- /comic-container -->
 
-		<div class="footer">
-			<p>
-				&copy; Karen Crizzle Balboa, Jamiely Hidaro, Dustin Clark 2016 -
-				<script>
-					var d = new Date();
-					document.write(d.getFullYear());
-				</script>
-			</p>
+			<div class="footer">
+				<p>
+					&copy; Karen Crizzle Balboa, Jamiely Hidaro, Dustin Clark 2016 -
+					<script>
+						var d = new Date();
+						document.write(d.getFullYear());
+					</script>
+				</p>
+			</div>
 		</div>
-	</div>
-	<!-- /container -->
+		<!-- /container -->
 
-	<script src="assets/javascript/dropdown.js"></script>
+		<script src="assets/javascript/dropdown.js"></script>
+		<script src="assets/javascript/characters.js"></script>
 </body>
 
 </html>
