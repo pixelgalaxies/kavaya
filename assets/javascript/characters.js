@@ -248,7 +248,7 @@ const listOfCharacters = {
 	mei: `
 	<div class="cols-12 colm-6">
 	<img src="assets/images/signatures/meiSGN.png" alt="" />
-	<p class="stats">Mei | Reader | Etargoss</p>
+	<p class="stats">Mei | Reader | Estargoss</p>
 	<p>A fierce fighter, Mei Jacinda is renowned throughout Estargoss. Swiftness and the ability to read an enemyís mind gives Mei the advantage in every encounter. Raised in the treetops of the Black Forest, she was constantly surrounded by an assortment bugs. Her favorite was always the praying mantis. With her favorite bug in mind, she created a giant scythe based on their hook like front legs. Weapon in hand, she defends her homeland from a variety of threats, including hunters, poaches, and those who would defile the forest.</p>
 	</div>
 
@@ -357,16 +357,17 @@ const listOfCharacters = {
 `
 }
 
-const defaultDisplay = document.querySelector(".character-display")
 const overlayContainer = document.querySelector(".overlay-container")
 const overlayContent = document.querySelector(".overlay-content")
 
 
 function showOverlay(character) {
-	defaultDisplay.style.display = "none"
 	overlayContainer.style.display = "inherit"
 	overlayContent.innerHTML = listOfCharacters[character]
+}
 
+function closeOverlay() {
+	overlayContainer.style.display = "none"
 }
 
 
