@@ -67,15 +67,15 @@ const listOfCharacters = {
 	<img src="assets/images/characters/josephine.png" alt="" />
 	</div>
 `,
-	jorah: `
+	jorrah: `
 	<div class="cols-12 colm-6">
-	<img src="assets/images/signatures/jorahSGN.png" alt="" />
-	<p class="stats">Jorah | Animator | Gillamoor</p>
+	<img src="assets/images/signatures/jorrahSGN.png" alt="" />
+	<p class="stats">Jorrah | Animator | Gillamoor</p>
 	<p>The Trevils family was mediocre at best. That was until Jorah was born. Being an only child was hard for him. His loneliness awakened his power of Animation. Once he discovered his rare gift, he was never lonely again. Now on the Order of Braylon, he uses his new friends to send messages all over Kavaya. </p>
 	</div>
 
 	<div class="cols-12 colm-6">
-	<img src="assets/images/characters/jorah.png" alt="" />
+	<img src="assets/images/characters/jorrah.png" alt="" />
 	</div>
 `,
 	silas: `

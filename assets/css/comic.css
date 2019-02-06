@@ -176,7 +176,7 @@ h2 {
 
 .stats {
 	font-size: 26px;
-	margin-bottom: 7.5px;
+	margin: 7.5px 0;
 }
 
 .overlay {
@@ -189,6 +189,9 @@ h2 {
 	align-self: flex-end;	
 }
 
+.overlay-content > div {
+	align-items: center;
+}
 
 
 /* ------------------------------------------- chronicles */
