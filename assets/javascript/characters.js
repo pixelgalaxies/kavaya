@@ -314,7 +314,7 @@ const listOfCharacters = {
 	tatula: `
 	<div class="cols-12 colm-6">
 	<img src="assets/images/signatures/tatulaSGN.png" alt="" />
-	<p class="stats">Tatula | Seer | Afterlife/p>
+	<p class="stats">Tatula | Seer | Afterlife</p>
 	<p>Tatula Bells was a gifted Seer. She met Azreal when she was alive and found herself drawn to him in death. Wishing to fulfill whatever left over business she has on Kavaya, Tatula is able to accurately recall any vision sheís ever had and willingly shares this info with Azreal</p>
 	</div>
 
