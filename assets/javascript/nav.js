@@ -1,4 +1,4 @@
-const genNav =	`
+const genNav = `
 	<div class="s-header">
 		<div class="title-bar">
 			<h1 class="s-title">Tales of Kavaya</h1>
@@ -10,7 +10,7 @@ const genNav =	`
 				<li><a href="about.html">About</a></li>
 				<li><a href="characters.html">Characters</a></li>
 				<li><a href="chronicles.html">Chronicles</a></li>
-				<li><a href="pronunciation.html">Pronunciation</a></li>
+				<li><a href="world.html">World</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
@@ -23,7 +23,7 @@ const genNav =	`
                <li><a href="about.html">About</a></li>
                <li><a href="characters.html">Characters</a></li>
                <li><a href="chronicles.html">Chronicles</a></li>
-               <li><a href="pronunciation.html">Pronunciation</a></li>
+               <li><a href="world.html">World</a></li>
                <li><a href="contact.html">Contact</a></li>
             </ul>
          </div>
