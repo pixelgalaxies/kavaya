@@ -93,7 +93,7 @@ const listOfCharacters = {
 	<div class="cols-12 colm-6">
 	<img src="assets/images/signatures/heeriumSGN.png" alt="" />
 	<p class="stats">Heerium | Cleric | Gillamoor</p>
-	<p>Heerium Reaves is a one-armed folk hero of Valkyrie. Sixty years ago, he was responsible for stopping a bounty hunter turned serial killer. One night this killer snuck into Heerium's house to stab him in his sleep. Unbeknownst to the killer, Heerium has the ability to heal himself. He took the knife from his gut and stabbed the man in the back as he was exiting the home, severing his spine. Heerium then dragged the body outside and strung it up in a nearby tree. A crowd of people gathered to which he shouted, "No wicked deed goes unseen."</p>
+	<p>Heerium Reaves is a one-armed, folk hero of Valkyrie. Sixty years ago, he was responsible for stopping a bounty hunter turned serial killer. One night this killer snuck into Heerium's house to stab him in his sleep. Unbeknownst to the killer, Heerium has the ability to heal himself. He took the knife from his gut and stabbed the man in the back as he was exiting the home, severing his spine. Heerium then dragged the body outside and strung it up in a nearby tree. A crowd of people gathered to which he shouted, "No wicked deed goes unseen."</p>
 	</div>
 
 	<div class="cols-12 colm-6">
@@ -360,7 +360,6 @@ const listOfCharacters = {
 const overlayContainer = document.querySelector(".overlay-container")
 const overlayContent = document.querySelector(".overlay-content")
 
-
 function showOverlay(character) {
 	overlayContainer.style.display = "inherit"
 	overlayContent.innerHTML = listOfCharacters[character]
@@ -369,5 +368,3 @@ function showOverlay(character) {
 function closeOverlay() {
 	overlayContainer.style.display = "none"
 }
-
-
