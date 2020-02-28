@@ -181,17 +181,14 @@ h2 {
 	color: white;
 	padding: 10px;
 	overflow-y: auto;
+	font-size: 20px;
+	text-align: center;
+	font-family: "Barlow Condensed";
 }
 
 .stats {
 	font-size: 26px;
 	margin: 7.5px 0;
-}
-
-.overlay {
-	font-size: 20px;
-	text-align: center;
-	font-family: "Barlow Condensed";
 }
 
 .overlay-x {
