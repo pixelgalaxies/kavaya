@@ -2,51 +2,51 @@ const listOfCharacters = {
 	// ----------------------------------------------------- witches of alderath
 	azreal: `
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/signatures/azrealSGN.png" alt="" />
+	<img class="sig" src="assets/images/signatures/azrealSGN.png" alt="" />
 	<p class="stats">Azreal | The Ghost King | Necromancer | Gillamoor</p>
 	<p>Azreal is arguably the most powerful witch in Kavaya. This is in part due to his Gift of Necromancy, which has manifested in strange ways. His abilities include agelessness, communication with the deceased, and the power to raise the dead. His Gift also allows him to wield Chaos Magic without the deadly repercussions. On the late king's deathbed, Azreal was chosen to rule Kavaya, a position he begrudgingly upholds.</p>
 	</div>
 
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/characters/azreal.png" alt="" />
+	<img src="assets/images/characters/azreal.png" alt="" />
 	</div>
 `,
 	morgan: `
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/signatures/morganSGN.png" alt="" /> 
+	<img class ="sig" src="assets/images/signatures/morganSGN.png" alt="" /> 
 	<p class="stats">Morgan | Morgan of the Marsh | Force | Vluslury</p>
 	<p>On the banks of the great swamp in the south, Ont'ha, there dwells a man named Morgan Forrest. His simple life of tending to the woods he once destroyed is over. When Azreal came to visit lonely Morgan, he brought with him the trouble of Gillamoor. Now, Morgan's life consists of traversing Kavaya, serving the realm, while still managing to find the time to keep his promise to his fairy friend, Gudglalo. </p>
 	</div>
 
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/characters/morgan.png" alt="" />
+	<img src="assets/images/characters/morgan.png" alt="" />
 	</div>
 `,
 	grey: `
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/signatures/greySGN.png" alt="" /> 
+	<img class ="sig" src="assets/images/signatures/greySGN.png" alt="" /> 
 	<p class="stats">Greyl | The Parish Girl | Tempest | Seamery</p>
 	<p>A scrappy girl from Seamery, Grey Parish isn't one to shy away from a fight. Despite being only 19, Grey has mastered the art of combining her tempestuous powers and her hand to hand combat skills. This gives her an edge in her frequent bar fights and has earned her a reputation of not being one to test. Grey refuses to believe the reports of her parents' deaths. Though, in their absence, she runs the family business all the while keeping an eye on the horizon in the hopes that she'll see their red sails. </p>
 	</div>
 
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/characters/grey.png" alt="" />
+	<img src="assets/images/characters/grey.png" alt="" />
 	</div>
 `,
 	rowan: `
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/signatures/rowanSGN.png" alt="" />
+	<img class="sig" src="assets/images/signatures/rowanSGN.png" alt="" />
 	<p class="stats">Rowan | The Northern Flame | Blaze | Igasho</p>
 	<p>To the north lies Igasho, a vast, snowy plain filled with mystical creatures and those who would do them harm. There, justice comes in the form of an elite group called the Jinwa. The leader of this group is Rowan Blake, a young woman driven by a fierce desire to defend the defenseless and enforce the law of the land like her grandfather before her. Rowan sees everyday as a chance to live up to her grandfather's legacy; one of kindness, honesty, but most importantly, righteousness. Throughout Igasho, she is known as: The Northern Flame. </p>
 	</div>
 
 	<div class="cols-12 colm-6">
-	<img class ="sig "src="assets/images/characters/rowan.png" alt="" />
+	<img src="assets/images/characters/rowan.png" alt="" />
 	</div>
 `,
 	ayari: `
 	<div class="cols-12 colm-6">
-	<img src="assets/images/signatures/ayariSGN.png" alt="" />
+	<img class="sig" src="assets/images/signatures/ayariSGN.png" alt="" />
 	<p class="stats">Ayari | Lady Vengeance | Ray | Valkyrie</p>
 	<p>Willing to go wherever vengeance takers her, Ayari Alomis is one of the top bounty hunters in all of Kavaya. After killing her parents' murderers and nearly blinding herself, a young Ayari is ushered into a new life by a stranger. With his help, she learns to live the life of an assassin. After reaching adulthood, Ayari quickly becomes known as Lady Vengeance. Choosing only cases involving betrayal and deceit, she is feared by all criminals who know of her. They never see her coming, but she is the last thing they hear.</p>
 	</div>
