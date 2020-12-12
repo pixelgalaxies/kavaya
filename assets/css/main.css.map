@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,WAAW",
+    "sources": [
+        "main.scss",
+        "_about.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
