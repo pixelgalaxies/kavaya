@@ -1,0 +1,41 @@
+/* stylesheet for Kavaya Index */
+
+.splash {
+	font-family: "Amatic SC", serif;
+
+	min-height: 100%;
+	width: 100%;
+	padding: 60px;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	color: #fafafa;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+
+	h1 {
+		font-size: 60px;
+	}
+
+	a {
+		color: #fafafa;
+		text-decoration: none;
+		font-size: 28px;
+		padding: 5px;
+		border: 2px solid #fafafa;
+		background-color: rgba(0, 0, 0, 0.35);
+	}
+
+	.law {
+		text-align: center;
+		font-size: 40px;
+	}
+
+	@media (min-width: 768px) {
+		.law {
+			font-size: 60px;
+		}
+	}
+}

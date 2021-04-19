@@ -1,7 +1,7 @@
 // Function to generate one of seven Emery's Laws for title screen 
 function generateLaw(){
 	const law = document.querySelector(".law");
-	const bg = document.querySelector(".container");
+	const bg = document.querySelector("body");
 	var random = Math.floor((Math.random() * 7) + 1);
 	//switch case to determine which law is displayed
 	switch(random) {

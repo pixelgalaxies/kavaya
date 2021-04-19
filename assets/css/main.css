@@ -1,2 +1,462 @@
-/*comment*/
+/*
+------------------------------- Resets and presets 
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button,
+input,
+a,
+textarea {
+  outline: none;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* stylesheet for Kavaya Index */
+.splash {
+  font-family: "Amatic SC", serif;
+  min-height: 100%;
+  width: 100%;
+  padding: 60px;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  color: #fafafa;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.splash h1 {
+  font-size: 60px;
+}
+
+.splash a {
+  color: #fafafa;
+  text-decoration: none;
+  font-size: 28px;
+  padding: 5px;
+  border: 2px solid #fafafa;
+  background-color: rgba(0, 0, 0, 0.35);
+}
+
+.splash .law {
+  text-align: center;
+  font-size: 40px;
+}
+
+@media (min-width: 768px) {
+  .splash .law {
+    font-size: 60px;
+  }
+}
+
+.header {
+  background-color: #2a1a35;
+  padding: 10px 25px;
+}
+
+.s-title {
+  color: #fafafa;
+  display: inline;
+  font-size: 42px;
+}
+
+.title-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.s-nav {
+  display: none;
+}
+
+.s-nav a {
+  color: #fafafa;
+  font-size: 24px;
+}
+
+.s-nav li {
+  text-align: center;
+  padding: 5px;
+}
+
+.x-icon {
+  display: none;
+}
+
+.m-title {
+  color: #fafafa;
+  font-size: 88px;
+}
+
+.m-nav li {
+  display: inline;
+}
+
+.m-nav a {
+  color: #fafafa;
+  font-size: 32px;
+  padding: 10px;
+}
+
+.m-nav a:hover {
+  border-bottom: 1px solid #fafafa;
+}
+
+@media (min-width: 300px) {
+  .m-header {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 35px;
+    text-align: center;
+  }
+  .s-header {
+    display: none;
+  }
+  .m-header {
+    display: inherit;
+  }
+  .footer {
+    font-size: 20px;
+  }
+}
+
+.about .avatar {
+  border: 1px solid #292929;
+  height: 350px;
+  width: 350px;
+}
+
+.about .about-icon {
+  height: 40px;
+}
+
+.about p,
+.about li {
+  font-size: 24px;
+}
+
+.about h3 {
+  font-size: 36px;
+}
+
+.character h3 {
+  border-bottom: 3px solid #292929;
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.character p {
+  font-size: 22px;
+}
+
+.chooseYourPlayer {
+  width: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #254551;
+}
+
+.character span {
+  cursor: pointer;
+}
+
+.overlay-container {
+  display: none;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  height: 100%;
+  margin: 0 auto;
+  background-color: #254551;
+  color: white;
+  padding: 10px;
+  overflow-y: auto;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Barlow Condensed";
+}
+
+.stats {
+  font-size: 26px;
+  margin: 7.5px 0;
+}
+
+.overlay-x {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  cursor: pointer;
+}
+
+.overlay-content > div {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.slide-out {
+  position: absolute;
+  left: -280px;
+  background-color: rgba(0, 0, 0, 0.9);
+  width: 300px;
+  height: 100%;
+  -webkit-transition: left 1s;
+  transition: left 1s;
+}
+
+.arrow {
+  position: absolute;
+  right: 0;
+  top: 48%;
+}
+
+.pro li {
+  padding: 10px 0;
+  list-style: none;
+  margin: 0;
+  border-bottom: 1px solid black;
+  font-size: 24px;
+}
+
+.contact-icons img {
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contact-icons img:hover {
+  background-color: #fafafa;
+}
+
+.contact h3 {
+  font-size: 28px;
+}
+
+.contact p {
+  font-size: 20px;
+}
+
+footer {
+  background-color: #2a1a35;
+  padding: 20px 0;
+  text-align: center;
+  color: #fafafa;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+body {
+  font-family: "Amatic SC", serif;
+  background-image: url(../images/bg2020.PNG);
+  background-attachment: fixed;
+  color: #000000;
+}
+
+.giant {
+  font-size: 125px;
+}
+
+.grid-fixed {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.head {
+  background-color: #292929;
+  padding: 20px 0;
+  color: #fafafa;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 5px 1px #fff;
+          box-shadow: 0px 0px 5px 1px #fff;
+}
+
+.card {
+  background-color: #acacac;
+  padding: 10px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0px 0px 5px 1px #fff;
+          box-shadow: 0px 0px 5px 1px #fff;
+}
+
+.card:last-child {
+  margin-bottom: 0px;
+}
+
+.card li {
+  list-style-type: circle;
+  margin-left: 60px;
+  font-family: "Barlow Condensed";
+}
+
+.card p {
+  font-family: "Barlow Condensed";
+}
 /*# sourceMappingURL=main.css.map */
