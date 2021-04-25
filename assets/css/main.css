@@ -280,6 +280,7 @@ a {
   border: 1px solid #292929;
   height: 350px;
   width: 350px;
+  border-radius: 50%;
 }
 
 .about .about-icon {
@@ -301,7 +302,7 @@ a {
   font-weight: bold;
 }
 
-.character p {
+.character-list p {
   font-size: 22px;
 }
 
@@ -312,7 +313,7 @@ a {
   background-color: #254551;
 }
 
-.character span {
+.character-list span {
   cursor: pointer;
 }
 
@@ -414,11 +415,7 @@ body {
   color: #000000;
 }
 
-.giant {
-  font-size: 125px;
-}
-
-.grid-fixed {
+.grid {
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.8);
 }
