@@ -1,33 +1,21 @@
 const genNav = `
-	<div class="s-header">
-		<div class="title-bar">
-			<h1 class="s-title">Tales of Kavaya</h1>
-			<img onclick="menuOpen()" class="menu-icon" src="assets/images/icons/menu.svg" alt="">
-			<img onclick="menuClose()" class="x-icon" src="assets/images/icons/x.svg" alt="">
-		</div>
-		<div class="s-nav">
-			<ul>
+	
+		<nav class="navbar">
+			<div class="nav-icon">
+				<i class="fas fa-bars nav-icon--menu"></i>
+				<i class="fas fa-times nav-icon--close"></i>
+			</div>
+			<a href="#" class="nav-logo">Tales Of Kavaya</a>
+			<ul class="nav-list">
 				<li><a href="about.html">About</a></li>
 				<li><a href="characters.html">Characters</a></li>
 				<li><a href="chronicles.html">Chronicles</a></li>
 				<li><a href="world.html">World</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-		</div>
-	</div>
-               
-      <div class="m-header">
-         <h1 class="m-title">Tales of Kavaya</h1>
-         <div class="m-nav">
-            <ul>
-               <li><a href="about.html">About</a></li>
-               <li><a href="characters.html">Characters</a></li>
-               <li><a href="chronicles.html">Chronicles</a></li>
-               <li><a href="world.html">World</a></li>
-               <li><a href="contact.html">Contact</a></li>
-            </ul>
-         </div>
-		</div>
+		</nav>
+	
+
 `;
 
-document.querySelector(".header").innerHTML = genNav;
+document.querySelector("header").innerHTML = genNav;
