@@ -1,3 +1,243 @@
+const azreal = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const morgan = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const grey = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const rowan = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const ayari = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+
+
+
+const josephine = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const jorrah = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const silas = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const heerium = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const amelia = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const emily = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const deron = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const dashiel = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const aurelia = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const jax = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const killian = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const greer = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+
+
+const kimi = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const leelan = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const alexandria = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const atlas = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const irvin = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const isaiah = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+
+
+
+const mei = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const roscoe = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const taizo = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const elias = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const ruby = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const alder = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const tatula = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const kalissa = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const oliver = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+const aurie = {
+	"name": "",
+	"nickname": "",
+	"gift": "",
+	"pronounciation": "",
+	"description": ""
+}
+
 const listOfCharacters = {
 	// ----------------------------------------------------- witches of alderath
 	azreal: `
@@ -348,7 +588,7 @@ const listOfCharacters = {
 	<div class="col-12 col-md-6">
 	<img src="assets/images/signatures/kalissaSGN.png" alt="" />
 	<p class="stats">Kalissa | Tempest | Vluslury</p>
-	<p>Known for her terror and lack of empathy, Kalissa Oduran is the fearsome leader of a group of bounty hunters. Growing up in Seamery was hard for Kalissa. After ìaccidentallyî killing her brother, her parents banished her when she was only 12. As she grew, her thirst for power grew. Today she commands a new family, The Imperium.</p>
+	<p>Known for her terror and lack of empathy, Kalissa Oduran is the fearsome leader of a group of bounty hunters. Growing up in Seamery was hard for Kalissa. After "accidentally" killing her brother, her parents banished her when she was only 12. As she grew, her thirst for power grew. Today she commands a new family, The Imperium.</p>
 	</div>
 
 	<div class="col-12 col-md-6">
@@ -363,8 +603,10 @@ const overlayContent = document.querySelector(".overlay-content")
 function showOverlay(character) {
 	overlayContainer.style.display = "inherit"
 	overlayContent.innerHTML = listOfCharacters[character]
+	document.querySelector('body').classList.add('overlay-open');
 }
 
 function closeOverlay() {
-	overlayContainer.style.display = "none"
+	overlayContainer.style.display = "none";
+	document.querySelector('body').classList.remove('overlay-open');
 }

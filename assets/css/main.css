@@ -230,8 +230,7 @@ header .nav-list a {
 
 .about .avatar {
   border: 1px solid #292929;
-  height: 350px;
-  width: 350px;
+  max-width: 100%;
   border-radius: 50%;
 }
 
@@ -300,6 +299,10 @@ header .nav-list a {
   background-color: #254551;
 }
 
+.characters.overlay-open {
+  overflow-y: hidden;
+}
+
 .characters .overlay-container {
   display: none;
   height: 100%;
@@ -313,7 +316,7 @@ header .nav-list a {
 
 .characters .overlay {
   height: 100%;
-  margin: 0 auto;
+  width: 100%;
   background-color: #254551;
   color: white;
   padding: 10px;
@@ -328,7 +331,7 @@ header .nav-list a {
   margin: 7.5px 0;
 }
 
-.characters .overlay-x {
+.characters .overlay i {
   cursor: pointer;
 }
 
